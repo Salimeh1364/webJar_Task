@@ -1,0 +1,115 @@
+.container {
+  height: 288px;
+  width: 60vw;
+  background: #ffffff;
+  box-shadow: 0px 0px 30px rgba(0, 200, 83, 0.05);
+  border-radius: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.imgBox {
+  height: 288px;
+  width: 301px;
+  border-radius: 0px 15px 15px 0px;
+  object-fit: cover;
+}
+
+.imgBox > img {
+  object-fit: cover;
+  height: 288px;
+  width: 301px;
+}
+.textBody {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 4vw;
+  width: 432px;
+}
+
+.contentBox{
+    display: flex;
+    flex-direction: column;
+    width: 780px;
+    /* background-color: coral; */
+}
+.titleText {
+  height: 22px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 123.6%;
+  text-align: right;
+  color: #373737;
+  margin-bottom: 37px;
+  width: 432px;
+}
+.bodyText {
+  height: 98px;
+  width: 432px;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.9;
+  color: #373737;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.textButton > button {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 120%;
+  background: #00c853;
+  border-radius: 15px;
+  text-align: center;
+  color: #ffffff;
+  width: 157px;
+  height: 56px;
+  border: none;
+  cursor: pointer;
+
+}
+
+.textButton > button :hover{
+    background: #00C853;
+box-shadow: 0px 5px 10px rgba(0, 200, 83, 0.25);
+cursor: pointer;
+
+}
+
+.footerBox{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 780px;
+    height: 56px;
+    /* background-color: aqua; */
+}
+
+.iconRow{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 8vw;
+    
+}
+
+.iconRow > p {
+font-weight: 300;
+font-size: 14px;
+line-height: 123.6%;
+
+
+}
